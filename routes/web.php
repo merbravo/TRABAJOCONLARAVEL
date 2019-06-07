@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/ingresar', 'controlFormularioPersona@ingresardatos');
+Route::get('/mostrar', 'controlFormularioPersona@mostrardatos');
+
+
