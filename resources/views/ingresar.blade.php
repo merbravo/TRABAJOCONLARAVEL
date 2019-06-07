@@ -4,8 +4,8 @@
 	<title>INGRESAR</title>
 </head>
 <body>
-<form>
-
+<form action= "{{url('\mostrar')}}" method="post" accept-charset="utf-8">
+  {{csrf_field()}}
 	<CENTER><h1>FORMULARIO INGRESAR <span class="badge badge-secondary"></span></h1></CENTER>
 	<div>
     <label for="colFormLabelSm" class="col-sm-2 col-form-label col-form-label-sm">NOMBRE</label>
